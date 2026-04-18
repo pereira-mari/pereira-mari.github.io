@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mariana Souza">
+    <title>Pizzaria</title>
+    <title>Pizzaria</title>
+    <link rel="icon" href="pizza.jpg" type="image/jpeg">
+</head>
+<body style="background-color: antiquewhite;">
+    <h1 style="color: #aa3c1e;">Pizzaria&#x1F355</h1>
+    <h2>Pizzas</h2>
+    <form action="#">
+        <div>
+            <label for="sabor">Sabor</label>
+            <select name="sabor" id="">
+                <option value="calabresa">Calabresa</option>
+                <option value="queijo">Quatro queijos</option>
+                <option value="carne">Carne de sol na nata</option>
+                <option value="frango">Frango com catupiry</option>
+            </select>
+            <label for="quantidade">Quant.</label>
+            <input type="number" name="quantidade" id="">
+        </div>
+        <div>
+            <label for="tam">P</label>
+            <input type="radio" name="tam">
+            <label for="tam">M</label>
+            <input type="radio" name="tam">
+            <label for="tam">G</label>
+            <input type="radio" name="tam">
+        </div>
+        <div>
+            <label for="">Catupiry</label>
+            <input type="checkbox">
+            <label for="">Molho de tomate</label>
+            <input type="checkbox">
+            <label for="">Borda de chocolate</label>
+            <input type="checkbox">
+        </div>
+        <h3>Bebidas &#x1F379</h3>
+        <div>
+            <select name="bebida" id="bebida">
+                <optgroup label="Sucos">
+                    <option value="laranja">Laranja</option>
+                    <option value="abacaxi">Abacaxi</option>
+                    <option value="maracuja">Maracujá</option>
+                    <option value="morango">Morango</option>
+                </optgroup>
+                <optgroup label="Bebidas alcoólicas">
+                    <option value="cerveja">Cerveja</option>
+                    <option value="black">Black&white</option>
+                    <option value="caipirinha">Caipirinha</option>
+                </optgroup>
+            </select>
+            <label for="quant">Quant.</label>
+            <input type="number" name="quant">
+
+        </div>
+        <br>
+        <div>
+            <label for="entrega">Entregar</label>
+            <input type="radio" name="entrega">
+            <label for="entrega">Retirar</label>
+            <input type="radio" name="entrega">
+        </div>
+        <div>
+            <label for="end">Endereço de entrega</label>
+            <textarea name="end" id="endereco"></textarea>
+        </div>
+        <br>
+        <button style="background-color: #aa3c1e; color: antiquewhite; " type="reset">Limpar</button>
+        <button style="background-color: #aa3c1e; color: antiquewhite;" type="submit">Enviar</button>
+    </form>
+</body>
+</html>
